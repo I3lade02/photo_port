@@ -8,7 +8,7 @@ export default function About() {
         <Row className="align-items-center">
           <Col md={5} className="text-center mb-4 mb-md-0">
             <Image
-              src="https://source.unsplash.com/300x300/?portrait,photographer"
+              src="https://picsum.photos/id/1005/300/300"
               alt="Photographer"
               roundedCircle
               fluid

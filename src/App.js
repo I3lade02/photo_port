@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -11,10 +11,13 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 export default function App() {
+  
+  const [darkMode, setDarkMode] = useState(false);
+  
   return (
     <Router>
-      <div className="app-wrapper">
-        <Navbar />
+      <div className={`app-wrapper ${darkMode ? 'dark-mode' : 'light-mode'}`}>
+        <Navbar dakrMode={darkMode} setDarkMode={setDarkMode} />
         <div className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />

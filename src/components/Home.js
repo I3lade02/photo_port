@@ -17,7 +17,7 @@ export default function Home() {
                     </Col>
                     <Col md={6}>
                         <img
-                            src='https://source.unsplash.com/800x600/?photography'
+                            src="https://picsum.photos/id/1043/800/600"
                             alt='Photography showcase'
                             className='img-fluid rounded shadow'
                         />

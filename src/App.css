@@ -12,3 +12,43 @@ html, body, #root {
 .main-content {
   flex: 1;
 }
+
+.image-hover-zoom {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.image-hover-zoom:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #f8f9fa;
+}
+
+.dark-mode .card {
+  background-color: #1e1e1e;
+  border-color: #333;
+}
+
+.dark-mode .card-text {
+  color: #ddd;
+}
+
+.dark-mode .btn {
+  background-color: #444;
+  color: #f8f9fa;
+}
+
+.dark-mode .navbar,
+.dark-mode .footer {
+  background-color: #1c1c1c !important;
+  color: #ddd;
+}
