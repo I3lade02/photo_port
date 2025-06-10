@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 
 export default function Home() {
     return (
-        <div className='home-section' style={{ backgroundColor: '#f8f9fa', padding: '4rem 0'}}>
+        <div className='home-section' style={{ backgroundColor: 'var(--bg)', padding: '4rem 0'}}>
             <Container>
                 <Row className='align-items-center'>
                     <Col md={6}>

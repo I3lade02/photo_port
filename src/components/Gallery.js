@@ -27,7 +27,7 @@ export default function Gallery() {
     }
 
     return (
-    <div className="gallery-section" style={{ padding: '4rem 0', backgroundColor: '#f8f9fa' }}>
+    <div className="gallery-section" style={{ padding: '4rem 0', backgroundColor: 'var(--bg)' }}>
       <Container>
         <h2 className="mb-4 text-center">Gallery</h2>
         <Row>

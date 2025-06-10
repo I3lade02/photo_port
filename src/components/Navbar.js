@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container, Form } from 'react-bootstrap';
 
 export default function NavigationBar({ darkMode, setDarkMode }) {
+  const handleToggle = () => {
+    setDarkMode(prev => !prev);
+  };
   return (
     <Navbar bg={darkMode ? 'dark' : 'light'} variant={darkMode ? 'dark' : 'light'} expand="lg" sticky="top">
       <Container>
@@ -20,7 +23,7 @@ export default function NavigationBar({ darkMode, setDarkMode }) {
               label={darkMode ? 'Dark' : 'Light'}
               className="ms-3 mt-1"
               checked={darkMode}
-              onChange={() => setDarkMode(!darkMode)}
+              onChange={handleToggle}
             />
           </Nav>
         </Navbar.Collapse>

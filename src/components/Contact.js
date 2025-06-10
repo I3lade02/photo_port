@@ -3,7 +3,7 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
 export default function Contact() {
     return (
-        <div className="contact-section" style={{ padding: '4rem 0', backgroundColor: '#ffffff' }}>
+        <div className="contact-section" style={{ padding: '4rem 0', backgroundColor: 'var(--bg)' }}>
             <Container>
                 <Row className="justify-content-center">
                     <Col md={8}>

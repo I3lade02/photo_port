@@ -7,6 +7,8 @@ html, body, #root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--text);
 }
 
 .main-content {
@@ -24,13 +26,15 @@ html, body, #root {
 }
 
 .light-mode {
-  background-color: #ffffff;
-  color: #212529;
+  --bg: #ffffff;
+  --text: #212529;
+  --card-bg: #f8f9fa;
 }
 
 .dark-mode {
-  background-color: #121212;
-  color: #f8f9fa;
+  --bg: #121212;
+  --text: #f8f9fa;
+  --card-bg: #1e1e1e;
 }
 
 .dark-mode .card {

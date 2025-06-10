@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 
 export default function About() {
   return (
-    <div className="about-section" style={{ padding: '4rem 0', backgroundColor: '#ffffff' }}>
+    <div className="about-section" style={{ padding: '4rem 0', backgroundColor: 'var(--bg)' }}>
       <Container>
         <Row className="align-items-center">
           <Col md={5} className="text-center mb-4 mb-md-0">

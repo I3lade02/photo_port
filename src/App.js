@@ -17,7 +17,7 @@ export default function App() {
   return (
     <Router>
       <div className={`app-wrapper ${darkMode ? 'dark-mode' : 'light-mode'}`}>
-        <Navbar dakrMode={darkMode} setDarkMode={setDarkMode} />
+        <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
         <div className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
