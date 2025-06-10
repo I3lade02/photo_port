@@ -1,18 +1,21 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 
 export default function Home() {
+    const { t } = useTranslation();
+
     return (
         <div className='home-section' style={{ backgroundColor: 'var(--bg)', padding: '4rem 0'}}>
             <Container>
                 <Row className='align-items-center'>
                     <Col md={6}>
-                        <h1 className='display-4'>Capturing Moments, One shot at a time</h1>
+                        <h1 className='display-4'>{t('home.headline')}</h1>
                         <p className='lead mt-4'>
-                            Welcome to my photography portfolio - a collection of memories, emotions and light
+                            {t('home.subtext')}
                         </p>
-                        <Button variant='dakr' href='/gallery' className='mt-3'>
-                            View gallery
+                        <Button variant='dark' href='/gallery' className='mt-3'>
+                            {t('home.viewGallery')}
                         </Button>
                     </Col>
                     <Col md={6}>

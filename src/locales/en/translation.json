@@ -1,0 +1,29 @@
+{
+    "navbar" : {
+        "name": "My portfolio",
+        "main": "Home",
+        "gallery": "Gallery",
+        "about": "About",
+        "contact": "Contact"
+    }, 
+    "homePage" : {
+        "headline": "Capturing Moments, One shot at a time",
+        "subtext": "Welcome to my photography portfolio - a collection of memories, emotions and light",
+        "viewGallery": "View gallery"
+    },
+    "aboutPage": {
+        "header": "About me",
+        "text1": "I'm passionate photographer who finds beauty in everyday moments. Whether I'm capturing landscapes, portraits, or candid street sceenes, I aim to tell authentic stories through light, texture, and emotion.",
+        "text2": "With a background in [Your background here], I approach photography as both an art and a form of connection. My goal is to make viewers feel something - to pause, reflect, and see the world a little differently."
+    },
+    "contactPage" : {
+        "nameHeader": "Contact me",
+        "yourName": "Your name",
+        "yourEmail": "Your email",
+        "yourMessage": "Message",
+        "entryName": "Enter your name",
+        "entryAddress": "Enter your email",
+        "enterMessage": "Your message...",
+        "sendButton": "Send message"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "navbar" : {
+        "name": "Moje portfolio",
+        "main": "Domů",
+        "gallery": "Galerie",
+        "about": "O mně",
+        "contact": "Kontakt"
+    }, 
+    "home" : {
+        "headline": "Zachycuji momenty, vždy snímek po snímku",
+        "subtext": "Vítejte v mém foto portfoliu - sbírce vzpomínek, emocí a světla",
+        "viewGallery": "Zobrazit galerii"
+    },
+    "about": {
+        "header": "O mně",
+        "text1": "Jsem nadšený fotograf, který zachycuje krásu v každodenních momentech. Ať už fotím krajinu, portréty, nebo běžnou screnérii, jsem tu abych vyprávěl skutečné příběhy pomocí světla, textur, a emocí.",
+        "text2": "Se svou zkušeností z [doplnit zkušenosti], přistupuji k fotografování jako k formě umění, ale i spojení mezi lidmi. Můj cíl je přimět lidi něco cítit - zastavit se, vzpomínat, a vidět svět z trochu jiné perspektivy."
+    },
+    "contact" : {
+        "nameHeader": "Kontakt",
+        "yourName": "Vaše jméno",
+        "yourEmail": "Váš email",
+        "yourMessage": "Zpráva",
+        "entryName": "Zadejte Vaše jméno",
+        "entryAddress": "Zadejte Váš email",
+        "enterMessage": "Vaše zpráva...",
+        "sendButton": "Odeslat zprávu"
+    }
+}
